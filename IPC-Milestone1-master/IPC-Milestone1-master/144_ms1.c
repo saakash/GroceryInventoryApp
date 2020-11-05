@@ -47,6 +47,9 @@ void pause(void) {
 	flushKeyboard();	
 }
 
+
+
+
 //getInt() accepts a valid integer
 int getInt(void) {
 	int rc, value, keepTrying = 0; 
