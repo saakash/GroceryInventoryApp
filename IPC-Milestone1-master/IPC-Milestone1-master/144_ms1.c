@@ -35,8 +35,7 @@ void printFooter(double gTotal) {
 		printf("\t\t\t\t\t  Grand Total: |%12.2lf\n",gTotal);
 	}
 }
-
-//flushKeyboard clears the input buffer
+//flushKeyboard clears the input buffer.....
 void flushKeyboard(void) {
 	while (getchar() != '\n')
 		;             //intentional empty statement
